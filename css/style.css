@@ -384,11 +384,15 @@ body {
 
 .l-hedder {
   min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .c-hedder__line {
   border: solid 1px #000;
   width: 40px;
+  transition: 0.5s;
 }
 
 .c-hedder__line + .c-hedder__line {
@@ -397,17 +401,21 @@ body {
 
 .c-hedder__line.is-active {
   transform: translateY(6px) rotate(-45deg);
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 .c-hedder__line:nth-child(2).is-active {
   transform: translateY(-6px) rotate(-135deg);
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .p-hedder__logo {
   font-size: 2em;
   font-weight: bold;
+}
+
+.p-hedder__nav-menu {
+  display: none;
 }
 
 /**
