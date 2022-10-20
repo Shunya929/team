@@ -26,6 +26,7 @@ front.html* ========================== */
 @use "Object/Project/background";
 @use "Object/Project/hedder" as *;
 @use "Object/Project/footer" as *;
+@use "Object/Project/gallery";
 
 /* Utility ------------ */
 @use "Object/Utility/margin";
