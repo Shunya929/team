@@ -1,0 +1,23 @@
+.c-hedder__line {
+  border: solid 1px #000;
+  width: 40px;
+
+}
+
+.c-hedder__line + .c-hedder__line {
+  margin-top: 10px;
+}
+
+.c-hedder__line.is-active {
+  transform: 
+      translateY(6px)
+      rotate(-45deg);
+      transition: .2s;
+}
+
+.c-hedder__line:nth-child(2).is-active {
+  transform: 
+      translateY(-6px)
+      rotate(-135deg);
+      transition: .2s;
+}
