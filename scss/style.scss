@@ -23,9 +23,9 @@ front.html* ========================== */
 @use "Object/Component/line";
 
 /* Project ------------ */
-
-@use "Object/Project/gallery";
+@use "Object/Project/background";
+@use "Object/Project/hedder" as *;
+@use "Object/Project/footer" as *;
 
 /* Utility ------------ */
-
 @use "Object/Utility/margin";
