@@ -1,0 +1,16 @@
+
+.p-gallery {
+    color: #333;
+    &__box {
+        display: flex;
+    }
+    &__img {
+        display: block;
+        width: 295px;
+        height: 295px;
+        margin-bottom: 10px;
+    }
+    &__title, &__price {
+        font-size: 12px;
+    }
+}
