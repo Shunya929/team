@@ -1,10 +1,16 @@
+@use "../../Foundation/mixin" as *;
+
 
 .p-gallery {
-    max-width: 1360px;
+    max-width: 700px;
     width: 100%;
     margin: 0 auto;
     color: #333;
     padding: 120px 40px 160px 40px;
+    @include breakpoint(pc) {
+        max-width: 1360px;
+  
+    }
     &__topTitle {
         margin-bottom: 30px;
     }
