@@ -1,7 +1,12 @@
 .p-gallery {
+    max-width: 1360px;
+
     color: #333;
     &__box {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
     }
     &__img {
         display: block;
@@ -11,5 +16,6 @@
     }
     &__title, &__price {
         font-size: 12px;
+        
     }
 }
