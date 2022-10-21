@@ -409,6 +409,15 @@ body {
   z-index: 1200;
 }
 
+.c-card {
+  display: flex;
+}
+.c-card__img {
+  height: 400px;
+  width: 400px;
+  margin-right: 60px;
+}
+
 .c-hedder__line {
   border: solid 1px #000;
   width: 40px;
