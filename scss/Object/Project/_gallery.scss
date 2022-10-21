@@ -1,27 +1,26 @@
 @use "../../Foundation/mixin" as *;
 
-
 .p-gallery {
-    max-width: 700px;
+    max-width: 1360px;
     width: 100%;
     margin: 0 auto;
     color: #333;
     padding: 120px 40px 160px 40px;
-    @include breakpoint(pc) {
-        max-width: 1360px;
-  
-    }
     &__topTitle {
         margin-bottom: 30px;
     }
     &__box {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 0 20px;
     }
     &__oneBox {
-        width: 23%;
+        width: calc(50% - 20px); 
         margin-bottom: 40px;
+        @include breakpoint(pc) {
+            width: calc(25% - 20px); 
+        }
     }
     
     &__img {
