@@ -1,8 +1,10 @@
+
 .p-gallery {
     max-width: 1360px;
     width: 100%;
     margin: 0 auto;
     color: #333;
+    padding: 120px 40px 160px 40px;
     &__topTitle {
         margin-bottom: 30px;
     }
@@ -12,17 +14,23 @@
         justify-content: space-between;
     }
     &__oneBox {
+        width: 23%;
         margin-bottom: 40px;
     }
     &__img {
         display: block;
-        width: 295px;
-        height: 295px;
+        max-width: 100%;
         margin-bottom: 10px;
     }
     &__title, &__price {
         font-size: 12px;
         
+    }
+    &__button {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
     }
 
 }
