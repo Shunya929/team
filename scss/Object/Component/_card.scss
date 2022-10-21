@@ -1,0 +1,12 @@
+.c-card {
+  display: flex;
+  padding-bottom: 70px;
+  &__img {
+    height: 400px;
+    width: 400px;
+    margin-right: 60px;
+  }
+  &__textbox {
+    width: 400px;
+  }
+}

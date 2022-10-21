@@ -396,7 +396,7 @@ th {
 
 body {
   height: 100%;
-  width: 95%;
+  width: 92%;
   margin: 0 auto;
   overflow-x: hidden;
 }
@@ -424,6 +424,25 @@ body {
   position: relative;
   color: #fff;
   z-index: 1200;
+}
+
+.c-main__button--back {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
+
+.c-card {
+  display: flex;
+  padding-bottom: 70px;
+}
+.c-card__img {
+  height: 400px;
+  width: 400px;
+  margin-right: 60px;
+}
+.c-card__textbox {
+  width: 400px;
 }
 
 .c-hedder__line {
@@ -545,6 +564,15 @@ body {
 
 .c-text--normal + .c-text--normal {
   margin-top: 20px;
+}
+
+.c-main__text--normal {
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.c-card__text--normal + .c-card__text--normal {
+  margin-top: 35px;
 }
 
 /**
