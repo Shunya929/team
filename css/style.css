@@ -450,10 +450,13 @@ body {
 }
 
 .p-gallery {
+  max-width: 1360px;
   color: #333;
 }
 .p-gallery__box {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .p-gallery__img {
   display: block;
