@@ -431,18 +431,6 @@ body {
   display: flex;
   gap: 2vw;
 }
-.p-gallery__box {
-  display: flex;
-}
-.p-gallery__img {
-  display: block;
-  width: 295px;
-  height: 295px;
-  margin-bottom: 10px;
-}
-.p-gallery__title, .p-gallery__price {
-  font-size: 12px;
-}
 
 .p-gallery {
   max-width: 1360px;
