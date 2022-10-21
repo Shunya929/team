@@ -6,29 +6,13 @@
 .p-hedder__nav-menu {
   position: absolute;
   left: -50%;
-  transition: .5s;
+  top: 50%;
+  transition: .7s;
 }
 
 .p-hedder__nav-menu.is-active {
-  left: 0%;
-  transition: .5s;
+  left: 5%;
+  transition: .7s;
   color: #ffffff;
   z-index: 20;
-}
-
-.p-hedder__background--black {
-  display: none;
-}
-
-.p-hedder__background--black.is-active {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  background-color: rgba(0,0,0,0.6);
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  cursor: pointer;
 }
