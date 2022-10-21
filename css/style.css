@@ -477,6 +477,7 @@ body {
   width: 100%;
   margin: 0 auto;
   color: #333;
+  padding: 120px 40px 160px 40px;
 }
 .p-gallery__topTitle {
   margin-bottom: 30px;
@@ -487,16 +488,22 @@ body {
   justify-content: space-between;
 }
 .p-gallery__oneBox {
+  width: 23%;
   margin-bottom: 40px;
 }
 .p-gallery__img {
   display: block;
-  width: 295px;
-  height: 295px;
+  max-width: 100%;
   margin-bottom: 10px;
 }
 .p-gallery__title, .p-gallery__price {
   font-size: 12px;
+}
+.p-gallery__button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
 }
 
 /**
