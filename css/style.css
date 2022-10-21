@@ -17,9 +17,12 @@
  * 3. Remove gray overlay on links for iOS.
  */
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-  -webkit-tap-highlight-color: transparent; /* 3*/
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-tap-highlight-color: transparent;
+  /* 3*/
 }
 
 /* Sections */
@@ -91,9 +94,12 @@ dd {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
   border-top-width: 1px;
   margin: 0;
   clear: both;
@@ -105,8 +111,10 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: inherit; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: inherit;
+  /* 2 */
 }
 
 address {
@@ -129,7 +137,8 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -147,8 +156,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: inherit; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: inherit;
+  /* 2 */
 }
 
 /**
@@ -203,7 +214,8 @@ input,
 optgroup,
 select,
 textarea {
-  -webkit-appearance: none; /* 1 */
+  -webkit-appearance: none;
+  /* 1 */
   appearance: none;
   vertical-align: middle;
   color: inherit;
@@ -213,7 +225,8 @@ textarea {
   margin: 0;
   border-radius: 0;
   text-align: inherit;
-  text-transform: inherit; /* 2 */
+  text-transform: inherit;
+  /* 2 */
 }
 
 /**
@@ -303,7 +316,8 @@ textarea {
  * 1. Correct the outline style in Safari.
  */
 [type=search] {
-  outline-offset: -2px; /* 1 */
+  outline-offset: -2px;
+  /* 1 */
 }
 
 /**
@@ -318,8 +332,10 @@ textarea {
  * 2. Fix font inheritance.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /**
@@ -358,7 +374,8 @@ summary {
 1. Correct table border color inheritance in all Chrome and Safari.
 */
 table {
-  border-color: inherit; /* 1 */
+  border-color: inherit;
+  /* 1 */
   border-collapse: collapse;
 }
 
@@ -427,6 +444,10 @@ body {
   display: none;
 }
 
+
+.p-gallery {
+  max-width: 1360px;
+  }
 .p-footer__sns-menu {
   display: flex;
   gap: 2vw;
@@ -437,6 +458,8 @@ body {
 }
 .p-gallery__box {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .p-gallery__img {
   display: block;
