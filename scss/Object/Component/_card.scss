@@ -1,0 +1,8 @@
+.c-card {
+  display: flex;
+  &__img {
+    height: 400px;
+    width: 400px;
+    margin-right: 60px;
+  }
+}
