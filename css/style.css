@@ -528,6 +528,14 @@ body {
   text-align: center;
   font-size: 14px;
 }
+.p-gallery__page {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.p-gallery__number {
+  padding: 0 20px;
+}
 
 .c-text--normal + .c-text--normal {
   margin-top: 20px;
