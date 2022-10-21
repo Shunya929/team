@@ -13,6 +13,9 @@
       translateY(6px)
       rotate(-45deg);
       transition: .5s;
+  position: relative;
+  border: solid 1px #fff;
+  z-index: 1200;
 }
 
 .c-hedder__line:nth-child(2).is-active {
