@@ -472,6 +472,10 @@ body {
   display: block;
   max-width: 100%;
   margin-bottom: 10px;
+  transition: all 0.5s;
+}
+.p-gallery__img:hover {
+  opacity: 0.8;
 }
 .p-gallery__title, .p-gallery__price {
   font-size: 12px;
