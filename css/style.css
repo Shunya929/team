@@ -463,15 +463,35 @@ body {
   display: flex;
   gap: 2vw;
 }
+.p-gallery__box {
+  display: flex;
+}
+.p-gallery__img {
+  display: block;
+  width: 295px;
+  height: 295px;
+  margin-bottom: 10px;
+}
+.p-gallery__title, .p-gallery__price {
+  font-size: 12px;
+}
 
 .p-gallery {
   max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
   color: #333;
+}
+.p-gallery__topTitle {
+  margin-bottom: 30px;
 }
 .p-gallery__box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.p-gallery__oneBox {
+  margin-bottom: 40px;
 }
 .p-gallery__img {
   display: block;

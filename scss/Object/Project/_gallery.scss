@@ -1,12 +1,18 @@
 .p-gallery {
     max-width: 1360px;
-
+    width: 100%;
+    margin: 0 auto;
     color: #333;
+    &__topTitle {
+        margin-bottom: 30px;
+    }
     &__box {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-
+    }
+    &__oneBox {
+        margin-bottom: 40px;
     }
     &__img {
         display: block;
@@ -18,5 +24,5 @@
         font-size: 12px;
         
     }
-    
+
 }
