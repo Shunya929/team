@@ -380,6 +380,7 @@ th {
 body {
   width: 95%;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .l-hedder {
@@ -398,6 +399,12 @@ body {
   justify-content: space-between;
 }
 
+.c-hedder__button.is-active {
+  position: relative;
+  color: #fff;
+  z-index: 1200;
+}
+
 .c-hedder__line {
   border: solid 1px #000;
   width: 40px;
@@ -411,6 +418,9 @@ body {
 .c-hedder__line.is-active {
   transform: translateY(6px) rotate(-45deg);
   transition: 0.5s;
+  position: relative;
+  border: solid 1px #fff;
+  z-index: 1200;
 }
 
 .c-hedder__line:nth-child(2).is-active {
@@ -424,7 +434,29 @@ body {
 }
 
 .p-hedder__nav-menu {
+  position: absolute;
+  left: -50%;
+  transition: 0.5s;
+}
+
+.p-hedder__nav-menu.is-active {
+  left: 0%;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.p-hedder__background--black {
   display: none;
+}
+
+.p-hedder__background--black.is-active {
+  display: block;
+  position: absolute;
+  z-index: 1100;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .p-footer__sns-menu {

@@ -4,5 +4,27 @@
 }
 
 .p-hedder__nav-menu {
+  position: absolute;
+  left: -50%;
+  transition: .5s;
+}
+
+.p-hedder__nav-menu.is-active {
+  left: 0%;
+  transition: .5s;
+  color: #ffffff;
+}
+
+.p-hedder__background--black {
   display: none;
+}
+
+.p-hedder__background--black.is-active {
+  display: block;
+  position: absolute;
+  z-index: 1100;
+  background-color: rgba(0,0,0,0.6);
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
 }
