@@ -4,5 +4,15 @@
 }
 
 .p-hedder__nav-menu {
-  display: none;
+  position: absolute;
+  left: -50%;
+  top: 50%;
+  transition: .7s;
+}
+
+.p-hedder__nav-menu.is-active {
+  left: 5%;
+  transition: .7s;
+  color: #ffffff;
+  z-index: 20;
 }
