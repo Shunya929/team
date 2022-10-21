@@ -17,10 +17,15 @@
         width: 23%;
         margin-bottom: 40px;
     }
+    
     &__img {
         display: block;
         max-width: 100%;
         margin-bottom: 10px;
+        transition: all 0.5s;
+        &:hover {
+            opacity: 0.8;
+        }
     }
     &__title, &__price {
         font-size: 12px;
