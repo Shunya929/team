@@ -400,10 +400,19 @@ body {
 }
 
 .l-hedder {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
   min-height: 80px;
+  width: 95%;
+  background-color: #ffffff;
+}
+
+.l-footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .c-hedder__line {
@@ -435,8 +444,16 @@ body {
   display: none;
 }
 
+
 .p-gallery {
   max-width: 1360px;
+  }
+.p-footer__sns-menu {
+  display: flex;
+  gap: 2vw;
+}
+
+.p-gallery {
   color: #333;
 }
 .p-gallery__box {
