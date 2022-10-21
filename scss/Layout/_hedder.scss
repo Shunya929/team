@@ -1,6 +1,10 @@
 .l-hedder {
-  min-height: 80px;
+  position: fixed;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  min-height: 80px;
+  width: 95%;
+  background-color: #ffffff;
 }
